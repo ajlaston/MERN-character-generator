@@ -5,7 +5,7 @@ import { RpgContext } from "../RpgContext";
 function CharacterCard(props) {
 
     const ctx = React.useContext(RpgContext);
-    const { setCharacters, characters } = ctx.saved;
+    const { setCharacters } = ctx.saved;
 
     const [editing, setEditing] = React.useState(false);
     const [formData, setFormData] = React.useState({

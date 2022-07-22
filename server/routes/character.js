@@ -59,4 +59,16 @@ characterRouter.delete('/:characterId', (req, res, next)=>{
     })
 })
 
+//delete all
+characterRouter.delete('/', (req, res, next)=>{
+    Character.remove({}, (err, data)=>{
+        if(err){
+            res.status(500);
+            return next(err);
+        }
+
+        res.status(200).send('The application has been reset');
+    })
+})
+
 module.exports = characterRouter;
