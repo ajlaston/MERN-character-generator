@@ -1,0 +1,23 @@
+.saved {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.title h1 {
+    text-align: center;
+    width: 500px;
+}
+
+.card-container {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}

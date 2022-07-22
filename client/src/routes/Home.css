@@ -1,0 +1,44 @@
+.home {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.home h1 {
+    text-align: center;
+}
+
+.home-form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 500px;
+}
+
+.home-form  input, select {
+    margin: 7px;
+    height: 30px;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(226, 236, 240);
+}
+
+.home-form  select {
+    height : 45px
+}
+
+.home-form  button {
+    padding: 15px;
+    margin: 7px;
+    background-color: rgba(67, 215, 67, 0.898);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 20px;
+}
+
+option {
+    text-align: center;
+}
