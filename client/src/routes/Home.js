@@ -7,10 +7,6 @@ function Home() {
     const ctx = React.useContext(RpgContext);
     const {formData, handleChange, submitForm} = ctx.home;
 
-    React.useEffect(() => {
-        //console.log(formData);
-    }, [formData])
-
     return (
         <div className="home">
 

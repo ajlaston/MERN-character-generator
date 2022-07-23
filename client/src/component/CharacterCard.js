@@ -60,7 +60,7 @@ function CharacterCard(props) {
                     <div className="edit-character">
                         <form className="stat-container" onSubmit={handleUpdate}>
                             <label htmlFor="name">Name: </label>
-                            <input name="name" type='text' value={props.name} onChange={handleChange} placeholder="name" />
+                            <input name="name" type='text' value={formData.name} onChange={handleChange} placeholder="name" />
                             <br />
                             <hr />
 
