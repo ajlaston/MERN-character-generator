@@ -6,7 +6,7 @@ const morgan = require('morgan');
 const mongoose = require('mongoose');
 
 const port = process.env.PORT || 8000;
-const url = 'mongodb+srv://admin:gold77@cluster0.rloylxh.mongodb.net/characterdb?retryWrites=true&w=majority';
+const url = 'mongodb://localhost:27017/characterdb';
 
 app.use(express.urlencoded({extended : true}))
 app.use(express.json())
