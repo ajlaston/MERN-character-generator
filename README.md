@@ -1,4 +1,4 @@
-# MERN-character-generator
+# MERN RPG Character Generator
 RPG character generator built with React, Node, Express, and MongoDB (local w/ Mongoose Schemas).
 
 
