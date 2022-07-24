@@ -55,8 +55,6 @@ function RpgContextProvider(props) {
                             def: "",
                         })
 
-                        console.log(data)
-
                         setCharacters(prev => ([
                             ...prev,
                             data
